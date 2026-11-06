@@ -23,7 +23,7 @@ requirements:
     - ${{ compiler('cxx') }}
     - if: unix
       then:
-        - pkg-config
+        - pkgconf
   host:
     - nlohmann_json
     - nlohmann_json-abi
